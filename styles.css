@@ -1,0 +1,42 @@
+* {
+    font-family: "Shippori Antique", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin: 0;
+    padding: 0;
+    color: white;
+    overflow: hidden;
+    background-color: black;
+}
+
+#wrapper {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#wrapper>h1,h6 {
+    margin-bottom: 10px;
+}
+
+#wrapper>img {
+    margin: 20px;
+    width: 10em;
+    height: 10em;
+    border-radius: 20%;
+    box-shadow: rgba(255, 140, 100, 0.3) 4px 10px 20px;
+}
+
+#content {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+@media screen and (max-width: 300px) {
+    * {
+        font-size: 22px;
+    }
+}
